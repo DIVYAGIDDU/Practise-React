@@ -1,0 +1,21 @@
+.card{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    color: blue;
+    font-style: oblique;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-stretch:ultra-expanded;
+}
+.body{
+    color: rgb(179, 22, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

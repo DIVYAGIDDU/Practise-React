@@ -1,0 +1,11 @@
+.flex-box{
+    display: flex;
+    background-color: pink;
+}
+.flex-box>div{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: blueviolet;
+}
