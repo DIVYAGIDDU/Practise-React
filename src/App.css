@@ -1,10 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .App {
-    text-align: center;
-    background-color: aquamarine;
-  }
+.divbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#abc{
+    margin-inline: 5px;
+}
