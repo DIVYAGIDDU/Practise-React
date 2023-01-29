@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.header{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 94%;
+    height: 80%;
+    z-index: 0;
+    background-image:url(../image/team-work.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:50px ;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    margin-top: 500px;
+    margin-left: 100px;
+    color: white;
+}
+.card{
+    background-color:rgb(8, 97, 75);
+    position: absolute;
+    right: 0;
+    top: 0;
+    justify-content:flex-end;
+    width: 40%;
+    height: 100%;
+
+}
+.text{
+    text-align: left;
+}
+.card-header{
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.card-body{
+    width: 100%;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.drop-down{
+    height: 30px;
+}
+.f-name{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.l-name{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.name{
+    display: flex;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.details{
+    display: flex;
+}
+.input{
+    width: 95%;
+    height: 35px;
+}
+.btns{
+   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+    background-color: green;
+    margin-right: 6px;
+}
+label{
+    color: white;
+}
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
+.entroll-btn{
+    background-color: #b6bf00;
+}
